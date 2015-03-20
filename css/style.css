@@ -4,47 +4,53 @@ body {
   padding: 0;
 }
 
+/*
+282828
+3c3836
+504945
+665c54
+7c6f64
+928374
+fdf4c1
+ebdbb2
+d5c4a1
+bdae93
+a89984
+fb4934
+b8bb26
+fabd2f
+83a598
+d3869b
+8ec07c
+fe8019
+32302f
+1d2021
+*/
+
 body {
-  background-color: #1b1b1b;
-  color: #f8f8f8;
-  font: 14px "Droid Sans Mono", monospace;
+  background-color: #282828;
+  color: #ebdbb2;
+  font: 14px "Inconsolata", monospace;
   line-height: 20px;
 }
 
-/*
- * grey: #939393;
- * grey: #8996a8;
- * light grey: #ebebeb;
- * off-grey: #8a9a95;
- * dark grey: #676767;
- *
- * light pink: #f8b3ae;
- * neon pink: #fd5ff1;
- * off-pink: #faa49c;
- *
- * light blue: #a8d6dc;
- * light blue: #a5eafc;
- * light blue: #9ee4fE;
- * muted light blue: #afc4db;
- * off-blue: #40a8b6;
- *
- * light green: #e3ff73;
- * light green: #d1fa72;
- * light green: #afee7f;
- * muted light green: #ddf2a4;
- *
- * light yellow: #f6dd6a;
- * yellow: #e9c062;
- *
- * dark orange: #cf7d34;
- */
+.palette {
+  display: none;
+}
+.palette span {
+  color: #000;
+  display: inline-block;
+  border: 1px solid #ccc;
+  margin: 0;
+  padding: 10px;
+}
 
 .container {
-  margin: 20px 30px;
+  margin: 30px;
 }
 
 code {
-  font-family: "Droid Sans Mono", monospace;
+  font-family: "Inconsolata", monospace;
 }
 
 h1,
@@ -52,40 +58,41 @@ h2,
 h3 {
   display: inline;
   font-size: 14px;
+  font-weight: normal;
   line-height: 20px;
   margin: 0;
   padding: 0;
 }
 
 h1 {
-  color: #a8d6dc;
+  color: #fabd2f;
 }
 
 h2 {
-  color: #e3ff73;
+  color: #fb4934;
 }
 
 h3 {
-  color: #f8b3ae;
+  color: #83a598;
 }
 
 mark {
-  color: #f8b3ae;
+  color: #b8bb26;
   background-color: transparent;
 }
 
 var {
-  color: #f6dd6a;
+  color: #83a598;
   font-style: normal;
 }
 
 .c1,
 .c2 {
-  color: #676767;
+  color: #8ec07c;
 }
 
 a {
-  color: #f8f8f8;
+  color: #b8bb26;
   text-decoration: underline;
   font-style: italic;
 }
