@@ -1,3 +1,56 @@
+body {
+  background-color: #26292c;
+  color: #bfc6c4;
+  font: 13px "Ubuntu Mono", serif;
+  line-height: 16px;
+}
+
 code {
-  font: 14px "Ubuntu Mono", serif;
+}
+
+h1,
+h2,
+h3 {
+  display: inline;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  color: #bf6263;
+  font-weight: bold;
+}
+
+h3 {
+  color: #a4a665;
+  font-style: italic;
+  font-weight: normal;
+}
+
+mark {
+  color: #a4a665;
+  background-color: transparent;
+}
+
+var {
+  color: #bf6263;
+  font-style: normal;
+}
+
+.c1 {
+  color: #a4a665;
+}
+
+.c2 {
+  color: #bf6263;
+}
+
+a {
+  color: #a4a665;
+  text-decoration: none;
+  font-style: italic;
+}
+a:hover {
 }
