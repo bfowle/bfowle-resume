@@ -1,60 +1,92 @@
+html,
 body {
-  background-color: #383838;
-  color: #ece8e3;
-  font: 13px "Ubuntu Mono", serif;
-  line-height: 16px;
+  margin: 0;
+  padding: 0;
 }
 
+body {
+  background-color: #1b1b1b;
+  color: #f8f8f8;
+  font: 16px "Ubuntu Mono", monospace;
+  line-height: 20px;
+}
+
+/*
+ * grey: #939393;
+ * grey: #8996a8;
+ * light grey: #ebebeb;
+ * off-grey: #8a9a95;
+ * dark grey: #676767;
+ *
+ * light pink: #f8b3ae;
+ * neon pink: #fd5ff1;
+ * off-pink: #faa49c;
+ *
+ * light blue: #a8d6dc;
+ * light blue: #a5eafc;
+ * light blue: #9ee4fE;
+ * muted light blue: #afc4db;
+ * off-blue: #40a8b6;
+ *
+ * light green: #e3ff73;
+ * light green: #d1fa72;
+ * light green: #afee7f;
+ * muted light green: #ddf2a4;
+ *
+ * light yellow: #f6dd6a;
+ * yellow: #e9c062;
+ *
+ * dark orange: #cf7d34;
+ */
+
 .container {
-  margin: 0 auto;
+  margin: 20px 30px;
 }
 
 code {
+  font-family: "Ubuntu Mono", monospace;
 }
 
 h1,
 h2,
 h3 {
   display: inline;
-  font-size: 14px;
-  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
   margin: 0;
   padding: 0;
 }
 
 h1 {
-  color: #e56244;
+  color: #a8d6dc;
 }
 
 h2 {
-  color: #b4ca6c;
+  color: #e3ff73;
 }
 
 h3 {
-  color: #ffd178;
+  color: #f8b3ae;
 }
 
 mark {
-  color: #c3c1f1;
+  color: #f8b3ae;
   background-color: transparent;
 }
 
 var {
-  color: #7dabcc;
+  color: #f6dd6a;
   font-style: normal;
 }
 
-.c1 {
-  color: #5fac5c;
-}
-
+.c1,
 .c2 {
-  color: #b4ca6c;
+  color: #676767;
 }
 
 a {
-  color: #7dabcc;
-  text-decoration: none;
+  color: #f8f8f8;
+  text-decoration: underline;
   font-style: italic;
 }
 a:hover {
