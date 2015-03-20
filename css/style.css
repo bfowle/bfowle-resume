@@ -1,8 +1,12 @@
 body {
-  background-color: #2d2d2d;
-  color: #f6fef0;
+  background-color: #383838;
+  color: #ece8e3;
   font: 13px "Ubuntu Mono", serif;
   line-height: 16px;
+}
+
+.container {
+  margin: 0 auto;
 }
 
 code {
@@ -13,49 +17,43 @@ h2,
 h3 {
   display: inline;
   font-size: 14px;
+  font-weight: normal;
   margin: 0;
   padding: 0;
 }
 
-h1,
-h2 {
-  font-weight: bold;
-}
-
 h1 {
-  color: #f7d32f;
+  color: #e56244;
 }
 
 h2 {
-  color: #ccfc5d;
+  color: #b4ca6c;
 }
 
 h3 {
-  color: #a7e9ee;
-  font-style: italic;
-  font-weight: normal;
+  color: #ffd178;
 }
 
 mark {
-  color: #a7e9ee;
+  color: #c3c1f1;
   background-color: transparent;
 }
 
 var {
-  color: #ccfc5d;
+  color: #7dabcc;
   font-style: normal;
 }
 
 .c1 {
-  color: #ccfc5d;
+  color: #5fac5c;
 }
 
 .c2 {
-  color: #e3fea6;
+  color: #b4ca6c;
 }
 
 a {
-  color: #a7e9ee;
+  color: #7dabcc;
   text-decoration: none;
   font-style: italic;
 }
