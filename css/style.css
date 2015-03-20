@@ -1,6 +1,6 @@
 body {
-  background-color: #26292c;
-  color: #bfc6c4;
+  background-color: #2d2d2d;
+  color: #f6fef0;
   font: 13px "Ubuntu Mono", serif;
   line-height: 16px;
 }
@@ -19,36 +19,43 @@ h3 {
 
 h1,
 h2 {
-  color: #bf6263;
   font-weight: bold;
 }
 
+h1 {
+  color: #f7d32f;
+}
+
+h2 {
+  color: #ccfc5d;
+}
+
 h3 {
-  color: #a4a665;
+  color: #a7e9ee;
   font-style: italic;
   font-weight: normal;
 }
 
 mark {
-  color: #a4a665;
+  color: #a7e9ee;
   background-color: transparent;
 }
 
 var {
-  color: #bf6263;
+  color: #ccfc5d;
   font-style: normal;
 }
 
 .c1 {
-  color: #a4a665;
+  color: #ccfc5d;
 }
 
 .c2 {
-  color: #bf6263;
+  color: #e3fea6;
 }
 
 a {
-  color: #a4a665;
+  color: #a7e9ee;
   text-decoration: none;
   font-style: italic;
 }
