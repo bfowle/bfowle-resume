@@ -4,29 +4,6 @@ body {
   padding: 0;
 }
 
-/*
-282828
-3c3836
-504945
-665c54
-7c6f64
-928374
-fdf4c1
-ebdbb2
-d5c4a1
-bdae93
-a89984
-fb4934
-b8bb26
-fabd2f
-83a598
-d3869b
-8ec07c
-fe8019
-32302f
-1d2021
-*/
-
 body {
   background-color: #282828;
   color: #ebdbb2;
@@ -86,9 +63,8 @@ var {
   font-style: normal;
 }
 
-.c1,
-.c2 {
-  color: #8ec07c;
+.title {
+  color: #b8bb26;
 }
 
 a {
